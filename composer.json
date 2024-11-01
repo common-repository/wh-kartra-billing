@@ -1,0 +1,20 @@
+{
+  "name": "j-hanlon/wu_kartra_billing",
+  "description": "Sync kartra billing actions with WordPress",
+  "authors": [
+      {
+          "name": "J Hanlon",
+          "email": "j@waashero.com"
+      }
+    ],
+    "require": {
+      "lcobucci/jwt": "^3.4"
+    },
+    "autoload": {
+      "psr-4": {
+        "Wu_Kartra_Billing\\": "/"
+      }
+    }
+   
+  }
+  
